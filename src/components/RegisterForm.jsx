@@ -48,7 +48,7 @@ const RegisterForm = ({ onSwitchToLogin }) => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/registro', {
+      const response = await fetch('https://backend-login-web.vercel.app/api/registro', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
